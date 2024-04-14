@@ -1,0 +1,19 @@
+{
+  "name": "mtg-color-quiz",
+  "version": "1.0.0",
+  "description": "Welcome! This is a Magic The Gathering Color quiz made with HTML, CSS, and JavaScript. Users will be able to answer the following questions that will determine what color is best suited to their play style. Though this may not be 100% accurate, please enjoy!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChampaineV/mtg-color-quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChampaineV/mtg-color-quiz/issues"
+  },
+  "homepage": "https://github.com/ChampaineV/mtg-color-quiz#readme"
+}
