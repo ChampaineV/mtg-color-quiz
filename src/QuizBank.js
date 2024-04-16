@@ -1,12 +1,18 @@
 const QuizBank = {
     totalQuestions: 7,
-    colors : [
+    _colors: [
         green = 0,
         red = 0,
         black = 0,
         blue = 0,
         white = 0
     ],
+    get colors() {
+        return this._colors;
+    },
+    set colors(value) {
+        this._colors = value;
+    },
     questions : [
     {
         question : 'What do you value most?',
@@ -21,10 +27,22 @@ const QuizBank = {
     ]
 }
 
-const handleAnswers = (questionIndex, selectedAnswer) => {
-    const answersList = [...answers];
+const handleAnswers = (selectedAnswer) => {
+    const answersList = [...choices];
     const colorsList = [...colors];
-    
+    const colorLocator = 0;
+    for (let x in answersList) {
+        if (selectedAnswer == answersList[x])
+        {
+            colorLocator = x;
+        }
+    }
+
+    for (let x in colorsList) {
+        if (colorLocator == colorsList[x]) {
+            colorsList[x].colors();
+        }
+    }
     /**updatedAnswers[questionIndex] = selectedAnswer;
     setAnswers(updatedColors);**/
   };
