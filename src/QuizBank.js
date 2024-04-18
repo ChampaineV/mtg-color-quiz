@@ -7,12 +7,6 @@ const QuizBank = {
         blue = 0,
         white = 0
     ],
-    get colors() {
-        return this._colors;
-    },
-    set colors(value) {
-        this._colors = value;
-    },
     questions : [
     {
         question : 'What do you value most?',
