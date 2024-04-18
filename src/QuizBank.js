@@ -22,21 +22,22 @@ const QuizBank = {
 }
 
 function matchAndAddValue(userAnswer, choices, answers, colorProfiles) {
-    // Find the index where the value matches in array1
-    const indexInArray1 = choices.indexOf(userAnswer);
+    // Find the index where the userAnswer matches in choices
+    const indexInChoices = choices.indexOf(userAnswer);
 
-    // If the value is found in array1
-    if (indexInArray1 !== -1) {
-        // Get the number from array2 at the index found in array1
-        const numberFromArray2 = answers[indexInArray1];
+    // If the userAnswer is found in choices
+    if (indexInChoices !== -1) {
+        // Get the corresponding answer value from answers
+        const answerValue = answers[indexInChoices];
 
-        // Find where the number matches in array3
-        const indexInArray3 = answers.indexOf(numberFromArray2);
+        // Find the index where the answer value matches in colorProfiles
+        const indexInColorProfiles = Object.keys(colorProfiles).indexOf(answerValue);
 
-        // If the number is found in array2
-        if (indexInArray3 !== -1) {
-            // Add the value to the corresponding index in array3
-            colorProfiles[indexInArray3] += 1;
+        // If the answer value is found in colorProfiles
+        if (indexInColorProfiles !== -1) {
+            // Increment the count for the corresponding color profile
+            const color = Object.keys(colorProfiles)[indexInColorProfiles];
+            colorProfiles[color]++;
         }
     }
 }
