@@ -1,8 +1,8 @@
 import QuizBank from './QuizBank';
 import { useState, useEffect } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+/*import { useNavigate, Link } from 'react-router-dom';*/
 
-function Quiz() {
+export default function Quiz() {
   const [activeQuestion, setActiveQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState('');
 

@@ -1,5 +1,6 @@
 //Handles logic for scoring and questions is written and other components are imported
 import './App.css';
+import Quiz from './Quiz';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
           <p>
           Welcome! This is a Magic The Gathering Color quiz made with HTML, CSS, and JavaScript. Users will be able to answer the following questions that will determine what color is best suited to their play style. Though this may not be 100% accurate, please enjoy!
           </p>
-          <a></a>
+          <a><Quiz /></a>
       </header>
     </div>
   );
