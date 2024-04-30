@@ -1,23 +1,33 @@
+import QuizBank from './QuizBank';
 import { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 
 function Quiz() {
+  const [activeQuestion, setActiveQuestion] = useState(0);
+  const [selectedAnswer, setSelectedAnswer] = useState('');
 
     return (
-      <div className="Quiz">
-        <header className="Quiz-header">
-          <h1>Magic The Gathering Color Quiz</h1>
-          <p>
-          Welcome! This is a Magic The Gathering Color quiz made with HTML, CSS, and JavaScript. Users will be able to answer the following questions that will determine what color is best suited to their play style. Though this may not be 100% accurate, please enjoy!
-          </p>
-          <a
-            className="Quiz-link"
-            href="https://reactjs.org"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+  {questions.map(function (question) {
+    return (
+      <div>
+        <h2>{question.question}</h2>
+        <h3>{question.choices}</h3>
+        <h3>{question.answers}</h3>
+        <a href="#">Learn more</a>
       </div>
+    )
+  })}
+</div>
+      /*<div className="Quiz">
+        <header className="Quiz-header">
+          <h4>{questions[activeQuestion].question}</h4>
+          <form onSubmit={onSubmit} className="">
+            <button type="submit" className="">
+              Next
+            </button>
+          </form>
+        </header>
+      </div>*/
     );
   }

@@ -20,24 +20,3 @@ const QuizBank = {
     }
     ]
 }
-
-function matchAndAddValue(userAnswer, choices, answers, colorProfiles) {
-    // Find the index where the userAnswer matches in choices
-    const indexInChoices = choices.indexOf(userAnswer);
-
-    // If the userAnswer is found in choices
-    if (indexInChoices !== -1) {
-        // Get the corresponding answer value from answers
-        const answerValue = answers[indexInChoices];
-
-        // Find the index where the answer value matches in colorProfiles
-        const indexInColorProfiles = Object.keys(colorProfiles).indexOf(answerValue);
-
-        // If the answer value is found in colorProfiles
-        if (indexInColorProfiles !== -1) {
-            // Increment the count for the corresponding color profile
-            const color = Object.keys(colorProfiles)[indexInColorProfiles];
-            colorProfiles[color]++;
-        }
-    }
-}
