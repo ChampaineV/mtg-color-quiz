@@ -7,19 +7,7 @@ export default function Quiz() {
   const [selectedAnswer, setSelectedAnswer] = useState('');
 
     return (
-      <div>
-  {questions.map(function (question) {
-    return (
-      <div>
-        <h2>{question.question}</h2>
-        <h3>{question.choices}</h3>
-        <h3>{question.answers}</h3>
-        <a href="#">Learn more</a>
-      </div>
-    )
-  })}
-</div>
-      /*<div className="Quiz">
+      <div className="Quiz">
         <header className="Quiz-header">
           <h4>{questions[activeQuestion].question}</h4>
           <form onSubmit={onSubmit} className="">
