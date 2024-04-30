@@ -16,6 +16,6 @@ export default function Quiz() {
             </button>
           </form>
         </header>
-      </div>*/
+      </div>
     );
   }
