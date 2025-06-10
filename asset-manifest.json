@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mtg-color-quiz/static/css/main.f855e6bc.css",
-    "main.js": "/mtg-color-quiz/static/js/main.2b09fbb7.js",
+    "main.css": "/mtg-color-quiz/static/css/main.f4756e02.css",
+    "main.js": "/mtg-color-quiz/static/js/main.2c3eabc0.js",
     "static/js/453.41c812ee.chunk.js": "/mtg-color-quiz/static/js/453.41c812ee.chunk.js",
     "index.html": "/mtg-color-quiz/index.html",
-    "main.f855e6bc.css.map": "/mtg-color-quiz/static/css/main.f855e6bc.css.map",
-    "main.2b09fbb7.js.map": "/mtg-color-quiz/static/js/main.2b09fbb7.js.map",
+    "main.f4756e02.css.map": "/mtg-color-quiz/static/css/main.f4756e02.css.map",
+    "main.2c3eabc0.js.map": "/mtg-color-quiz/static/js/main.2c3eabc0.js.map",
     "453.41c812ee.chunk.js.map": "/mtg-color-quiz/static/js/453.41c812ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.2b09fbb7.js"
+    "static/css/main.f4756e02.css",
+    "static/js/main.2c3eabc0.js"
   ]
 }
