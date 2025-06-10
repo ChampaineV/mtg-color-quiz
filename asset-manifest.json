@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mtg-color-quiz/static/css/main.99e30788.css",
+    "main.css": "/mtg-color-quiz/static/css/main.3d322d66.css",
     "main.js": "/mtg-color-quiz/static/js/main.159dffcb.js",
     "static/js/453.41c812ee.chunk.js": "/mtg-color-quiz/static/js/453.41c812ee.chunk.js",
     "static/media/chloe-lam-I4ScSrKsfIg-unsplash.jpg": "/mtg-color-quiz/static/media/chloe-lam-I4ScSrKsfIg-unsplash.44f1d2eb39b0440e0c12.jpg",
@@ -9,12 +9,12 @@
     "static/media/birmingham-museums-trust-SAQl58G-RYs-unsplash.jpg": "/mtg-color-quiz/static/media/birmingham-museums-trust-SAQl58G-RYs-unsplash.7c21d78f859a5d6d3ae4.jpg",
     "static/media/birmingham-museums-trust-wKlHsooRVbg-unsplash.jpg": "/mtg-color-quiz/static/media/birmingham-museums-trust-wKlHsooRVbg-unsplash.fe38c6e3677a98813502.jpg",
     "index.html": "/mtg-color-quiz/index.html",
-    "main.99e30788.css.map": "/mtg-color-quiz/static/css/main.99e30788.css.map",
+    "main.3d322d66.css.map": "/mtg-color-quiz/static/css/main.3d322d66.css.map",
     "main.159dffcb.js.map": "/mtg-color-quiz/static/js/main.159dffcb.js.map",
     "453.41c812ee.chunk.js.map": "/mtg-color-quiz/static/js/453.41c812ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99e30788.css",
+    "static/css/main.3d322d66.css",
     "static/js/main.159dffcb.js"
   ]
 }
