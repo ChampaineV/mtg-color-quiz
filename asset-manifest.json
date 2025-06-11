@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/mtg-color-quiz/static/css/main.1cff339f.css",
-    "main.js": "/mtg-color-quiz/static/js/main.cda8909c.js",
+    "main.css": "/mtg-color-quiz/static/css/main.b506a311.css",
+    "main.js": "/mtg-color-quiz/static/js/main.ad52088d.js",
     "static/js/453.41c812ee.chunk.js": "/mtg-color-quiz/static/js/453.41c812ee.chunk.js",
     "static/media/chloe-lam-I4ScSrKsfIg-unsplash.jpg": "/mtg-color-quiz/static/media/chloe-lam-I4ScSrKsfIg-unsplash.44f1d2eb39b0440e0c12.jpg",
     "static/media/catherine-kay-greenup-l5EaYAbV1X4-unsplash.jpg": "/mtg-color-quiz/static/media/catherine-kay-greenup-l5EaYAbV1X4-unsplash.366ca403686f39509fbd.jpg",
     "static/media/art-institute-of-chicago-duYq9UmcORk-unsplash.jpg": "/mtg-color-quiz/static/media/art-institute-of-chicago-duYq9UmcORk-unsplash.bf50725565e7f0fdb30f.jpg",
     "static/media/birmingham-museums-trust-SAQl58G-RYs-unsplash.jpg": "/mtg-color-quiz/static/media/birmingham-museums-trust-SAQl58G-RYs-unsplash.7c21d78f859a5d6d3ae4.jpg",
     "static/media/birmingham-museums-trust-wKlHsooRVbg-unsplash.jpg": "/mtg-color-quiz/static/media/birmingham-museums-trust-wKlHsooRVbg-unsplash.fe38c6e3677a98813502.jpg",
+    "static/media/bg-swamp.jpg": "/mtg-color-quiz/static/media/bg-swamp.debd88032a1da73019e2.jpg",
+    "static/media/bg-dragon.jpg": "/mtg-color-quiz/static/media/bg-dragon.cea2d7f6a43e7f453a77.jpg",
+    "static/media/bg-fire.jpg": "/mtg-color-quiz/static/media/bg-fire.6039c7dff45efb99fbfc.jpg",
+    "static/media/bg-ghost.jpg": "/mtg-color-quiz/static/media/bg-ghost.e66b26d169b0b87d1d6d.jpg",
+    "static/media/bg-flutterstorm.webp": "/mtg-color-quiz/static/media/bg-flutterstorm.4c7db7077ac82e266b9c.webp",
     "index.html": "/mtg-color-quiz/index.html",
-    "main.1cff339f.css.map": "/mtg-color-quiz/static/css/main.1cff339f.css.map",
-    "main.cda8909c.js.map": "/mtg-color-quiz/static/js/main.cda8909c.js.map",
+    "main.b506a311.css.map": "/mtg-color-quiz/static/css/main.b506a311.css.map",
+    "main.ad52088d.js.map": "/mtg-color-quiz/static/js/main.ad52088d.js.map",
     "453.41c812ee.chunk.js.map": "/mtg-color-quiz/static/js/453.41c812ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cff339f.css",
-    "static/js/main.cda8909c.js"
+    "static/css/main.b506a311.css",
+    "static/js/main.ad52088d.js"
   ]
 }
